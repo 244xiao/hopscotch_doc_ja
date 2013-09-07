@@ -148,31 +148,31 @@ title のみ、 content のみ、または title と content の両方を持っ�
 
 * `padding` [INT] - 吹き出しのパディング
 
-* `xOffset` [INT] - 吹き出しの水平方向の位置調整。値はピクセル数または "center" が指定できます。*デフォルト値*： 0。
+* `xOffset` [INT] - 吹き出しの水平方向の位置調整。値はピクセル数または "center" が指定できます。 *デフォルト値* ： 0。
 
-* `yOffset` [INT] - 吹き出しの垂直方向の位置調整。値はピクセル数または "center" が指定できます。*デフォルト値*： 0。
+* `yOffset` [INT] - 吹き出しの垂直方向の位置調整。値はピクセル数または "center" が指定できます。 *デフォルト値* ： 0。
 
-* `arrowOffset` [INT] - 吹き出しの矢印のオフセット。値はピクセル数または "center" が指定できます。*デフォルト値*： 0。
+* `arrowOffset` [INT] - 吹き出しの矢印のオフセット。値はピクセル数または "center" が指定できます。 *デフォルト値* ： 0。
 
-* `delay` [INT] - ステップを表示する前に待機するミリ秒数。*デフォルト値*： 0。
+* `delay` [INT] - ステップを表示する前に待機するミリ秒数。 *デフォルト値* ： 0。
 
 * `zindex` [INT] - 吹き出しの z-index を設定します。
 
-* `showNextButton` [BOOLEAN] - next ボタンを表示します。*デフォルト値*： true 。
+* `showNextButton` [BOOLEAN] - next ボタンを表示します。 *デフォルト値* ： true 。
 
-* `showPrevButton` [BOOLEAN] - prev ボタンを表示します。*デフォルト値*： true 。
+* `showPrevButton` [BOOLEAN] - prev ボタンを表示します。 *デフォルト値* ： true 。
 
-* `showCTAButton` [BOOLEAN] - call-to-action ボタンを表示します。これはどんな目的にも使用できるカスタムボタンです。詳細は onCTA オプションを参照してください。*デフォルト値*： false 。
+* `showCTAButton` [BOOLEAN] - call-to-action ボタンを表示します。これはどんな目的にも使用できるカスタムボタンです。詳細は onCTA オプションを参照してください。 *デフォルト値* ： false 。
 
 * `ctaLabel` [STRING] - call-to-action ボタンのラベル。
 
-* `multipage` [BOOLEAN] - 次のステップが別のページにあることを示します。*デフォルト値*： false 。
+* `multipage` [BOOLEAN] - 次のステップが別のページにあることを示します。 *デフォルト値* ： false 。
 
-* `showSkip` [BOOLEAN] - true の場合、'Next' ボタンが 'Skip' ボタンになります。*デフォルト値*： false 。
+* `showSkip` [BOOLEAN] - true の場合、'Next' ボタンが 'Skip' ボタンになります。 *デフォルト値* ： false 。
 
-* `fixedElement` [BOOLEAN] - ターゲット要素の position が fixed の場合は、 true に設定します。*デフォルト値*： false 。
+* `fixedElement` [BOOLEAN] - ターゲット要素の position が fixed の場合は、 true に設定します。 *デフォルト値* ： false 。
 
-* `nextOnTargetClick` [BOOLEAN] - ターゲットをクリックすると nextStep() をトリガーします。*デフォルト値*： false 。
+* `nextOnTargetClick` [BOOLEAN] - ターゲットをクリックすると nextStep() をトリガーします。 *デフォルト値* ： false 。
 
 * `onPrev` [FUNCTION] - 'Previous' ボタンがクリックされたときのコールバック
 
@@ -189,27 +189,27 @@ title のみ、 content のみ、または title と content の両方を持っ�
 
 * `id` [STRING] - *必須*。ツアーのためのユニークな識別子の文字列。状態を維持するために使用します。
 
-* `bubbleWidth` [NUMBER] - デフォルトの吹き出しの幅。*デフォルト値*： 280。
+* `bubbleWidth` [NUMBER] - デフォルトの吹き出しの幅。 *デフォルト値* ： 280。
 
-* `bubblePadding` [NUMBER] - デフォルトの吹き出しのパディング。*デフォルト値*： 15。
+* `bubblePadding` [NUMBER] - デフォルトの吹き出しのパディング。 *デフォルト値* ： 15。
 
-* `smoothScroll` [BOOLEAN] - 次のステップへのページスクロールをスムーズにする必要がありますか？*デフォルト値*： true 。
+* `smoothScroll` [BOOLEAN] - 次のステップへのページスクロールをスムーズにする必要がありますか？ *デフォルト値* ： true 。
 
-* `scrollDuration` [NUMBER] - ミリ秒単位でのページスクロールの時間。 smoothScroll が true に設定されている場合のみ有効。*デフォルト値* ： 1000。
+* `scrollDuration` [NUMBER] - ミリ秒単位でのページスクロールの時間。 smoothScroll が true に設定されている場合のみ有効。 *デフォルト値*  ： 1000。
 
-* `scrollTopMargin` [NUMBER] - ページをスクロールしたときに、吹き出しや targetElement と Viewport の上端との間にどのくらいのスペースが必要ですか？*デフォルト値* ： 200。
+* `scrollTopMargin` [NUMBER] - ページをスクロールしたときに、吹き出しや targetElement と Viewport の上端との間にどのくらいのスペースが必要ですか？ *デフォルト値*  ： 200。
 
-* `showCloseButton` [BOOLEAN] - ツアーの吹き出しの近くに （X） ボタンを表示する必要がありますか？*デフォルト値*： true 。
+* `showCloseButton` [BOOLEAN] - ツアーの吹き出しの近くに （X） ボタンを表示する必要がありますか？ *デフォルト値* ： true 。
 
-* `showPrevButton` [BOOLEAN] - 吹き出しは prev ボタンを持っている必要がありますか？*デフォルト値*： false 。
+* `showPrevButton` [BOOLEAN] - 吹き出しは prev ボタンを持っている必要がありますか？ *デフォルト値* ： false 。
 
-* `showNextButton` [BOOLEAN] - 吹き出しは next ボタンを持っている必要がありますか？*デフォルト値*： true 。
+* `showNextButton` [BOOLEAN] - 吹き出しは next ボタンを持っている必要がありますか？ *デフォルト値* ： true 。
 
-* `arrowWidth` [NUMBER] - デフォルトの矢印の幅（吹き出しと targetEl の間のスペース）。吹き出しの位置計算のために使用。このオプションは開発者が矢印の大きさを調整するカスタム CSS を使用するために設けられている。*デフォルト値*： 20。
+* `arrowWidth` [NUMBER] - デフォルトの矢印の幅（吹き出しと targetEl の間のスペース）。吹き出しの位置計算のために使用。このオプションは開発者が矢印の大きさを調整するカスタム CSS を使用するために設けられている。 *デフォルト値* ： 20。
 
-* `skipIfNoElement` [BOOLEAN] - 指定されたターゲット要素が見つからなかった場合、次のステップに進む必要がありますか？*デフォルト値*： true 。
+* `skipIfNoElement` [BOOLEAN] - 指定されたターゲット要素が見つからなかった場合、次のステップに進む必要がありますか？ *デフォルト値* ： true 。
 
-* `nextOnTargetClick` [BOOLEAN] - ユーザーがターゲットをクリックするとき、次のステップに進めるべきですか？*デフォルト値*： false 。
+* `nextOnTargetClick` [BOOLEAN] - ユーザーがターゲットをクリックするとき、次のステップに進めるべきですか？ *デフォルト値* ： false 。
 
 * `onNext` [FUNCTION] - "Next" ボタンをクリックしてすべての後に呼び出されます。
 
@@ -275,7 +275,7 @@ Hopscotch フレームワークには、ツアーの実行と管理ができる 
 
 * `hopscotch.resetDefaultOptions()` - 設定したすべてのオプションを元の値にリセットします。
 
- 
+
  コールバックの定義
 ==================
 
@@ -431,7 +431,7 @@ calloutMgr.createCallout({
 });
 ```
 
-吹き出しには、 width 、 placement 、 offset 、 z-index のようなものを指定することもできるため、ツアーのステップとして使用できる同じオプションが付属しています。ツアーステップと吹き出しの最も重要な違いは、コールアウトを作成するときは後で参照するために `id` を提供する*必要がある*ことです。
+吹き出しには、 width 、 placement 、 offset 、 z-index のようなものを指定することもできるため、ツアーのステップとして使用できる同じオプションが付属しています。ツアーステップと吹き出しの最も重要な違いは、コールアウトを作成するときは後で参照するために `id` を提供する *必要がある* ことです。
 
 吹き出しのすべての管理は、 Hopscotch Callout Manager を介して行われます。吹き出しの管理の仕事は非常に単純であり、ほんの一握りの API メソッドが付属しています。
 
