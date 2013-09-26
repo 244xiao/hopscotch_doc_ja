@@ -257,6 +257,8 @@ Hopscotch フレームワークには、ツアーの実行と管理ができる 
 
 * `hopscotch.getCurrTour()` - 現在実行中のツアーを返します。
 
+* `hopscotch.getCurrTarget()` - 現在実行中のステップのターゲットオブジェクトを返します。
+
 * `hopscotch.getCurrStepNum()` - 現在実行中のツアーのステップ数（ゼロベース）を返します。
 
 * `hopscotch.getState()` - sessionStorage またはクッキーに保存された状態をチェックし、存在する場合はその状態を返します。ツアーを再開するかどうかの判断をするためにこのメソッドを使用します。
